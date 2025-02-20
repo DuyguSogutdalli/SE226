@@ -1,0 +1,10 @@
+stName=input("\nPlease enter your name: ")
+labGrade=int(input("Please enter your Lab grade: "))
+mtGrade=int(input("Please enter your Midterm grade: "))
+finalGrade=int(input("Please enter your Final grade:"))
+
+print("Name: ", stName)
+print("Lab: " , str(labGrade))
+print("Midterm: " , str(mtGrade))
+print("Final: ", str(finalGrade))
+print("Last Score: " , str((labGrade*0.25)+(mtGrade*0.35)+(finalGrade*0.40)))
